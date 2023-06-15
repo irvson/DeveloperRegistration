@@ -73,7 +73,7 @@ export const Step3 = () => {
         <Link className="backButton" to="/step2">
           Voltar
         </Link>
-        <button onClick={handleNextStep}>Finalizar Cadastro</button>
+        <button onClick={handleNextStep}>Próximo</button>
       </div>
     </Theme>
   );
