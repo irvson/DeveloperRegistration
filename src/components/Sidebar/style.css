@@ -1,0 +1,60 @@
+.containerBar{
+margin: 30px 0;
+cursor: pointer;
+}
+
+.containerBar a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.containerBar .info{
+    flex: 1;
+    margin-right: 20px;
+    
+}
+
+.info .title{
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #FFF;
+}
+
+.info .description{
+    text-align: right;
+    font-size: 13px;
+    color: #b8b8d4;
+}
+
+.icon{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #494A7C;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.icon-1,.icon-2,.icon-3,.icon-4{
+    width: 26px;
+    height: 26px;
+}
+
+
+
+
+.point{
+
+    width: 11px;
+    height: 11px;
+    border: 3px solid #494a7c;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: -6px;
+    background-color: #02044A;
+
+}
